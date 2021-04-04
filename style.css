@@ -1,0 +1,38 @@
+@font-face 
+{
+    font-family: "pokefont";
+    src: url("poke.ttf");
+}
+
+body{
+    margin: 0;
+    font-family: "pokefont";
+    overflow: auto;
+}
+.container{
+    padding: 1em;
+    overflow: auto;
+    display: grid;
+    grid-template-columns: 210px 210px 210px 210px 210px 210px 210px 210px;
+    grid-gap: 1em;
+}
+
+.grid{
+    display: flex;
+    height: 300px;
+    width: 210px;
+    border: 1px dashed #555;
+    
+}
+
+.top{
+    position: fixed;
+    overflow: hidden;
+    background-color: #111;
+    height: 80px;
+    padding-top: 10px;
+    text-align: center;
+    border-bottom: 10px #555 solid;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
