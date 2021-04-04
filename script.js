@@ -35,7 +35,7 @@ function leftdown(){
     c.scrollLeft -= 1;
     window.scrollBy(0, 1); 
     a++;
-    if(a<500){
+    if(a<400){
         scrolldelay = setTimeout('leftdown()', 10); // scrolls every 10 milliseconds
     }
     else{
