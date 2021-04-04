@@ -17,8 +17,7 @@ function rightdown() {
     else{
         a=0;
         leftdown();
-    }
-        
+    }   
     
 }
 
@@ -38,16 +37,3 @@ function leftdown(){
     }
     //scrolldelay = setTimeout('right()', 10); // scrolls every 100 milliseconds
 }
-/*
-function left(){
-    let c = document.querySelector('#cont');
-    c.scrollLeft -= 1;
-    a--;
-    if(a){
-        scrolldelay = setTimeout('left()', 10); // scrolls every 100 milliseconds
-    }
-    else{
-        a=1000;
-        right();
-    }
-}*/
