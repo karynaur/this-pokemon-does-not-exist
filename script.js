@@ -20,7 +20,7 @@ function rightdown() {
     c.scrollLeft += 1;
     window.scrollBy(0, 1);
     a++;
-    if(a<700){
+    if(a<600){
         scrolldelay = setTimeout('rightdown()', 10); // scrolls every 10 milliseconds
     }
     else{
@@ -48,17 +48,30 @@ function leftdown(){
 function rightup()
 {
     let c = document.querySelector('#cont');
-    c.scrollLeft += 2;
+    c.scrollLeft += 1;
 
     window.scrollBy(0, -1);
     a++;
-    if(a<300)
+    if(a<500)
     {
         scrolldelay = setTimeout('rightup()', 10);
     }
     else{
         a=0;
-        location.reload();
+        up();
+    }
+}
+
+function up()
+{
+    window.scrollBy(0, -1);
+    a++;
+    if(a<400)
+    {
+        scrolldelay = setTimeout('up()', 10);
+    }
+    else{
+        a=0;
         rightdown();
     }
 }
