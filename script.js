@@ -5,7 +5,7 @@ function loadimgs() {
     //document.getElementById('0').src = '0.png';
 
     for(var i=1; i<201; i++){
-        document.getElementById(i).src = i+'.png';
+        document.getElementById(i).src = 'Card/' + i + '.png';
     }
     rightdown();
 }
