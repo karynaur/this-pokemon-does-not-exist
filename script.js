@@ -1,11 +1,4 @@
 function loadimgs() {
-
-    //alert('loal');
-
-    //document.getElementById('0').src = '0.png';
-
-    
-
     for(var i=1; i<201; i++){
         let x = Math.floor(Math.random() * (200 - 1) + 1);
         document.getElementById(i).src = 'Card/' + x + '.png';
@@ -40,7 +33,6 @@ function leftdown(){
     }
     else{
         a=0;
-        //location.reload();
         rightup();
     }
 }
@@ -74,4 +66,9 @@ function up()
         a=0;
         rightdown();
     }
+}
+
+function image(img) {
+    var src = img.src;
+    window.open(src);
 }
