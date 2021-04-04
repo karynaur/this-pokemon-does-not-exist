@@ -13,14 +13,14 @@ body{
     padding: 1em;
     overflow: auto;
     display: grid;
-    grid-template-columns: 210px 210px 210px 210px 210px 210px 210px 210px;
+    grid-template-columns: 214px 214px 214px 214px 214px 214px 214px 214px;
     grid-gap: 1em;
 }
 
 .grid{
     display: flex;
     height: 300px;
-    width: 210px;
+    width: 214px;
     border: 1px dashed #555;
     
 }
