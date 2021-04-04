@@ -7,6 +7,10 @@ Generated names are under [names][2].
 [1]: https://github.com/karynaur/this-pokemon-does-not-exist/tree/main/results/run2-generated-25
 [2]: https://github.com/karynaur/this-pokemon-does-not-exist/tree/main/results/namelist
 
+The models can be found [here](https://github.com/karynaur/this-pokemon-does-not-exist/tree/main/models)
+The code to make the template can be found [here](https://github.com/karynaur/this-pokemon-does-not-exist/blob/main/Template.ipynb)
+All the preprocessed images can be found [here](https://github.com/karynaur/this-pokemon-does-not-exist/tree/main/Card)
+
 
 ## What it does
 It produces images which look exactly like how a Pokémon would look, but the Pokémon's do not actually exist. The [model](https://github.com/lucidrains/lightweight-gan) has successfully learn a latent space of different Pokémon like species by training on a corpus of "real" Pokémon images. We then combine these processed images into the card layout to make a new card based on the Pokémon. We also trained a minGPT on existing Pokémon names and asked it to generate new names! Magale, Pimate, Garenige and Popet are some of the Pokémon names that don't exist.
