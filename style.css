@@ -7,7 +7,7 @@
 body{
     margin: 0;
     font-family: "pokefont";
-    overflow: auto;
+    overflow: hidden;
 }
 .container{
     padding: 1em;
@@ -29,7 +29,8 @@ body{
     position: fixed;
     overflow: hidden;
     background-color: #111;
-    height: 80px;
+    height: auto;
+    width:100%;
     padding-top: 10px;
     text-align: center;
     border-bottom: 10px #555 solid;
