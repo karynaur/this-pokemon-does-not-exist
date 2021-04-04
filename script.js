@@ -4,8 +4,11 @@ function loadimgs() {
 
     //document.getElementById('0').src = '0.png';
 
+    
+
     for(var i=1; i<201; i++){
-        document.getElementById(i).src = 'Card/' + i + '.png';
+        let x = Math.floor(Math.random() * (200 - 1) + 1);
+        document.getElementById(i).src = 'Card/' + x + '.png';
     }
     rightdown();
 }
@@ -14,7 +17,7 @@ var a=0;
 
 function rightdown() {
     let c = document.querySelector('#cont');
-    c.scrollLeft += 2;
+    c.scrollLeft += 1;
     window.scrollBy(0, 1);
     a++;
     if(a<700){
@@ -29,7 +32,7 @@ function rightdown() {
 function leftdown(){
     // alert('ini');
     let c = document.querySelector('#cont');
-    c.scrollLeft -= 2;
+    c.scrollLeft -= 1;
     window.scrollBy(0, 1); 
     a++;
     if(a<500){
