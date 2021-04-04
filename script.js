@@ -33,7 +33,9 @@ function leftdown(){
     }
     else{
         a=0;
+        location.reload();
         rightdown();
+        
     }
     //scrolldelay = setTimeout('right()', 10); // scrolls every 100 milliseconds
 }
