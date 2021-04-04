@@ -4,21 +4,9 @@ function loadimgs() {
 
     //document.getElementById('0').src = '0.png';
 
-    // for(int in=0; in<10; in++){
-    //     document.getElementById(in+'').src = in+'.png';
-    // }
-
-
-    //var i = 0;
-    //while(i <= 6){
-    //    var ImageSrc = i + ".png";
-    //    console.log(ImageSrc);
-    //    document.getElementById('0').src = ImageSrc;
-    //    i++;
-    //}
-
-
-
+    for(var i=0; i<200; i++){
+        document.getElementById(i).src = i+'.png';
+    }
     rightdown();
 }
 
